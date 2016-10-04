@@ -17,14 +17,14 @@ function fizzbuzz(num) {
   //to use routines which adds the digits and checks
   //the multiplicability
   if(num % 3 == 0) {
-    str += "Fizz";
+    str += "Fizzy";
   }
 
 
   //Similary to eliminate modulo 5 in large integers
   //just check if last digit is 0 or 5.
   if(num % 5 == 0) {
-    str += "Buzz";
+    str += "Buzzy";
   }
 
   if (str === "") {
